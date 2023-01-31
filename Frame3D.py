@@ -6,7 +6,7 @@ from prettytable import PrettyTable
 import Charts
 
 # Import 'FEModel3D'  from 'PyNite'
-from pynite import FEModel3D
+from PyNite import FEModel3D
 
 # Create a new model
 frame = FEModel3D()
