@@ -44,7 +44,8 @@ def main():
 
     # 'Define the materials'
     frame.add_material('Concrete', E, G, 0.3, 0)
-
+    
+    # 'Define the members'
     frame.add_member('M12', 'N1', 'N2', 'Concrete',
                      I1y, Iz, J, A1, None, False, False)
     frame.add_member('M23', 'N2', 'N3', 'Concrete',
